@@ -7,9 +7,10 @@ import { CreateTodoButton } from './CreateTodoButton';
 //import './App.css';
 
 const todos = [
-  {text: 'Cortar cebolla', completed: false},
+  {text: 'Cortar cebolla', completed: true},
   {text: 'Cortar tomate', completed: false},
-  {text: 'Cortar pimenton', completed: false},
+  {text: 'Cortar pimenton', completed: true},
+  {text: 'Cortar ajo', completed: false},
 ]
 
 function App(props) {
@@ -21,7 +22,11 @@ function App(props) {
 
       <TodoList>
         {todos.map(todo => (
-          <TodoItem key={todo.text} text={todo.text} />
+          <TodoItem
+            key={todo.text}
+            text={todo.text}
+            completed={todo.completed}
+          />
         ))}
       </TodoList>
 
