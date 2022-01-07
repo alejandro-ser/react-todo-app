@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  padding: 0;
-  background: #f2f4f5;
+  *padding: 0;
+  /*background: #f2f4f5;*/
+  background: linear-gradient(110deg, rgb(44, 202, 123), rgb(47, 192, 218), rgb(45, 160, 121) , rgb(47, 192, 218) ,rgb(44, 202, 123));
   color: #1e1e1f;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;

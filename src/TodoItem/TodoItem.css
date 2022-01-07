@@ -11,16 +11,16 @@
 .TodoItem-p {
     margin: 24px 0 24px 24px;
     width: calc(100% - 120px);
-    font-size: 18px;
+    font-size: 22px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .TodoItem-p--complete {
     text-decoration: line-through;
 }
 
-.Icon {
+/*.Icon {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -50,4 +50,4 @@
 
 .Icon-delete:hover {
     color: crimson;
-}
+}*/
